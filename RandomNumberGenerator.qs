@@ -5,7 +5,7 @@ namespace Tutorial {
 
     @EntryPoint()
     operation Main() : Int {
-        let max = 100;
+        let max = 300;
         Message($"Sampling a random number between 0 and {max}: ");
 
         // Generate random number in the 0..max range.
